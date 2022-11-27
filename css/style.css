@@ -1,0 +1,11 @@
+#imagenes-equipo{
+    
+    height: 300px;
+    width: 300px;
+    border-radius: 5%;
+    z-index: 3;
+}
+#fondo-imagen{
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
