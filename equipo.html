@@ -34,9 +34,9 @@
                               Nuestras Redes
                             </a>
                             <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="instagram.com/lacasadelbarrohn"><img src="images/instagram.png" alt="Logo" width="30" height="30"> &nbsp Instagram</a></li>
-                              <li><a class="dropdown-item" href="#"><img src="images/correo.png" alt="Logo" width="25" height="25"> &nbsp Correo</a></li>
-                              <li><a class="dropdown-item" href="#"><img src="images/whatsapp.png" alt="Logo" width="30" height="30"> &nbsp WhatsApp</a></li>
+                              <li><a class="dropdown-item" id="iconos-2" href="instagram.com/lacasadelbarrohn"><img src="images/instagram.png" alt="Logo"> &nbsp Instagram</a></li>
+                              <li><a class="dropdown-item" id="iconos-2" href="#"><img src="images/correo.png" alt="Logo"> &nbsp Correo</a></li>
+                              <li><a class="dropdown-item" id="iconos-2" href="#"><img src="images/whatsapp.png" alt="Logo"> &nbsp WhatsApp</a></li>
                             </ul>
                           </li>
                     </ul>
@@ -45,35 +45,56 @@
         </nav>
    </header>
 
-   <div class="row mt-5" >
-       <div class="col-4  mt-5" >
-          <img src="/images/ariel.jpg" class="mx-auto d-block p-4 shadow bg-dark" id="imagenes-equipo" data-bs-toggle="collapse" data-bs-target="#collapseAriel" aria-expanded="false" aria-controls="collapseAriel"/>
-          <div id="fondo-imagen"></div>
-       </div>
-       <div class="col-4 mt-5">
-        <img src="/images/javier.png" class="mx-auto d-block p-4 shadow bg-dark" id="imagenes-equipo" />
-       </div>
-       <div class="col-4 mt-5">
-         <img src="/images/rolando.jpeg" class="mx-auto d-block p-4 shadow bg-dark" id="imagenes-equipo"/>
-       </div>
-       <div class="row">
-          <h2 class="col-4 text-center">Furro Ariel</h2>
-          <h2 class="col-4 text-center">Javier GigaChad</h2>
-          <h2 class="col-4 text-center">Furro Rolando</h2>
-       </div>
+
+   <div class="row mt-5 ">
+
+          <button class="btn m-5 col " type="button" data-bs-toggle="collapse" data-bs-target="#collapseAriel" aria-expanded="false" aria-controls="multiCollapseExample2"><img src="/images/ariel.jpg" class="mx-auto d-block " id="imagenes-equipo" /></button>
+          <button class="btn m-5 col" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJavier" aria-expanded="false" aria-controls="multiCollapseExample2"><img src="/images/javier.png" class="mx-auto d-block " id="imagenes-equipo" /></button>
+          <button class="btn m-5 col" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRolando" aria-expanded="false" aria-controls="multiCollapseExample2"><img src="/images/rolando.jpeg" class="mx-auto d-block " id="imagenes-equipo" /></button>
+
    </div>
-   <p>
-    <a class="btn btn-dark" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><img src="/images/ariel.jpg" class="mx-auto d-block " id="imagenes-equipo" /></a>
-    <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2"><img src="/images/javier.png" class="mx-auto d-block " id="imagenes-equipo" /></button>
-    <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2"><img src="/images/rolando.jpeg" class="mx-auto d-block" id="imagenes-equipo" /></button>
-    <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
-  </p>
+ 
    <div class="collapse" id="collapseAriel">
     <div class="card card-body">
-      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+      <h2 class="col-4 text-center">Furro Ariel</h2>
+      ESTE HIJO DE PUTA ES UN FURRO QUE SOLO JODER SABE
+    </div>
+   </div>
+   <div class="collapse" id="collapseRolando">
+    <div class="card card-body">
+      <h2 class="col-4 text-center">Furro Rolando</h2>
+      UN MAJE QUE LE VA A PURO EQUIPO QUE VALEN VERGA
+    </div>
+   </div>
+   <div class="collapse" id="collapseJavier">
+    <div class="card card-body">
+      <h2 class="col-4 text-center">Javier GigaChad</h2>
+      UN PAPUCHO, SU CARA ESTA ESCULPIDA POR LOS MISMITOS ANGELES
     </div>
    </div>
 
+
+   <footer class="bg-dark text-center text-white" >
+    <div class="container p-4 pb-0">
+
+      <section class="mb-4">
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><img src="/images/whatsapp.png"></img
+        ></a>
+
+        <a class="btn btn-outline-light btn-floating m-1" href="instagram.com/lacasadelbarrohn" role="button"
+          ><img src="/images/instagram.png"></img
+        ></a>
+
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><img src="/images/correo.png"></img
+        ></a>
+      </section>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright: Diseño los furros
+    </div>
+  </footer>
    <!-- JS -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 

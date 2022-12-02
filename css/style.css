@@ -9,3 +9,15 @@
     background-color: rgba(0, 0, 0, 0.5);
  
 }
+#iconos-2{
+    height: 30px;
+    width: 30px;
+}
+footer {
+  
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  
+   
+  }
