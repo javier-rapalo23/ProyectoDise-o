@@ -47,7 +47,7 @@
 
    <div class="row mt-5" >
        <div class="col-4  mt-5" >
-          <img src="/images/ariel.jpg" class="mx-auto d-block p-4 shadow bg-dark" id="imagenes-equipo"/>
+          <img src="/images/ariel.jpg" class="mx-auto d-block p-4 shadow bg-dark" id="imagenes-equipo" data-bs-toggle="collapse" data-bs-target="#collapseAriel" aria-expanded="false" aria-controls="collapseAriel"/>
           <div id="fondo-imagen"></div>
        </div>
        <div class="col-4 mt-5">
@@ -62,15 +62,15 @@
           <h2 class="col-4 text-center">Furro Rolando</h2>
        </div>
    </div>
-   <div>
-    <div
-      class="bg-image hover-overlay ripple shadow-1-strong rounded"
-        data-mdb-ripple-color="light"
->
-      <img src="/images/ariel.jpg" class="w-100" alt="Louvre" />
-      <a href="#!">
-          <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
-       </a>
+   <p>
+    <a class="btn btn-dark" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><img src="/images/ariel.jpg" class="mx-auto d-block " id="imagenes-equipo" /></a>
+    <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2"><img src="/images/javier.png" class="mx-auto d-block " id="imagenes-equipo" /></button>
+    <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2"><img src="/images/rolando.jpeg" class="mx-auto d-block" id="imagenes-equipo" /></button>
+    <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+  </p>
+   <div class="collapse" id="collapseAriel">
+    <div class="card card-body">
+      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
     </div>
    </div>
 
