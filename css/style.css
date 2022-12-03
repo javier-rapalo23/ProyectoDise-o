@@ -10,6 +10,10 @@
     height: 250px;
     width: 250px;
 }
+#imagen-inicio{
+    height: 400px;
+    width: 400px;
+}
 #fondo-imagen{
     background-color: rgba(0, 0, 0, 0.5);
  
@@ -17,4 +21,33 @@
 #iconos-2{
     height: 30px;
     width: 30px;
+}
+.testimoniales__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+}
+
+.article__container{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 1fr 1fr;
+    margin: 1em;
+    background-color: rgba(255, 200, 0);
+    width: 100%;
+    padding: 2em;
+    border-radius: 5px;
+}
+
+.article__container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    grid-column: 1/2;
+    grid-row: 1/3;
+
+}
+.article__username{
+    font-weight: bold;
 }
