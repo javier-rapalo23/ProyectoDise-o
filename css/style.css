@@ -2,8 +2,13 @@
     
     height: 300px;
     width: 300px;
-    border-radius: 5%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
     
+}
+#imagen-port{
+    height: 250px;
+    width: 250px;
 }
 #fondo-imagen{
     background-color: rgba(0, 0, 0, 0.5);
